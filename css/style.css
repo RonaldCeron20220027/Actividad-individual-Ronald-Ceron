@@ -1,0 +1,31 @@
+body{
+    background-color: lightseagreen;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.images img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+nav a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
