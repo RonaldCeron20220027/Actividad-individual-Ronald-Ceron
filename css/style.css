@@ -22,10 +22,19 @@ body{
     justify-content: space-around;
     align-items: flex-start;
 }
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-direction: center;
+}
 nav a{
     text-decoration: none;
 }
 nav{
     display: flex;
     justify-content: space-evenly;
+}
+nav img{
+    width: 150px;
+    border-radius: 25px;
 }
